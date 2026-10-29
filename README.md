@@ -106,3 +106,16 @@ src/HdrSwitcher.Core/     P/Invoke da DisplayConfig + MonitorService
 src/HdrSwitcher.App/      App de bandeja (WinForms, tray-only)
 src/HdrSwitcher.Cli/      CLI `hdr`
 ```
+
+## Contribuindo
+
+1. Faça um fork do repositório e crie uma branch: `git checkout -b feature/minha-melhoria`
+2. Compile e teste: `dotnet build HdrSwitcher.sln` e `hdr list`
+3. Abra um Pull Request descrevendo a mudança e como testou
+
+Ideias bem-vindas: atalhos individuais por monitor, perfis por jogo, notificações configuráveis e tradução da interface.
+
+## Licença
+
+[MIT](LICENSE) © 2026 Boneco Sinforoso
+
